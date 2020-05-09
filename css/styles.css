@@ -1,0 +1,148 @@
+/* Global Attributes */
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  color: hsl(229, 6%, 66%);
+  background-color: hsl(0, 0%, 98%);
+}
+
+@media screen and (max-width: 320px) {
+  body {
+    font-size: 12px;
+  }
+}
+
+/* Introduction Section */
+
+h1 {
+  font-size: 1.9vw;
+  font-weight: 200;
+  color: hsl(234, 12%, 34%);
+}
+
+.bold-title {
+  font-weight: 600;
+}
+
+.descr-pad {
+  padding: 0 36%;
+  margin-top: 20px;
+}
+
+.section01-mrgn {
+  margin-top: 70px;
+}
+
+/* media queries */
+
+@media screen and (max-width: 1400px) {
+  h1 {
+    font-size: 3vw;
+  }
+  .descr-pad {
+    padding: 0 28%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  h1 {
+    font-size: 4vw;
+  }
+  .descr-pad {
+    padding: 0 23%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  h1 {
+    font-size: 6vw;
+  }
+  .descr-pad {
+    padding: 0 5%;
+  }
+}
+
+/* Four Card Feature Section */
+
+h2 {
+  font-weight: 600;
+  font-size: 1.3rem;
+  color: hsl(234, 12%, 34%);
+}
+
+.section02-mrgn {
+  margin-top: 30px;
+}
+
+/* generic box styles */
+
+.bx {
+  margin: 20px 0 0 0;
+  border-radius: 4px;
+  border-top: 4px solid;
+  padding: 27px 27px;
+  background-color: #fff;
+  box-shadow: 0 8px 13px hsl(229, 6%, 85%);
+}
+
+@media screen and (max-width: 510px) {
+  .left-bx {
+    margin-top: 50px;
+  }
+  .bx {
+    margin: 20px 10px 0 10px;
+    padding: 23px 23px;
+  }
+}
+
+/* individual box styles */
+
+.left-bx {
+  border-color: hsl(180, 62%, 55%);
+}
+
+.center-bx-01 {
+  border-color: hsl(0, 78%, 62%);
+}
+
+.center-bx-02 {
+  border-color: hsl(34, 97%, 64%);
+}
+
+.right-bx {
+  border-color: hsl(212, 86%, 64%);
+}
+
+/* card alignment properties */
+
+.v-center-bx {
+  align-self: center;
+}
+
+.img-align {
+  margin-top: 30px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* Footer */
+
+hr {
+  margin-top: 30px;
+}
+
+footer {
+  margin: 40px 0;
+}
+
+/* pre-provided styles */
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
